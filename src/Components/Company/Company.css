@@ -1,0 +1,17 @@
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 100px;
+  height: 100vh;
+}
+.add {
+  margin-bottom: 10px;
+}
+.company-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 100px;
+  height: 100vh;
+}
