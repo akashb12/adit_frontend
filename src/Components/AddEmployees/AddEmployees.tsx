@@ -23,7 +23,7 @@ function AddEmployees(props: Props) {
     lastName: "",
     email: "",
     companyId: props.id,
-    roleId: 0,
+    roleId: 1,
   });
 
   const handleChange = (e: any) => {
@@ -50,7 +50,7 @@ function AddEmployees(props: Props) {
             lastName: "",
             email: "",
             companyId: props.id,
-            roleId: 0,
+            roleId: 1,
           });
           props.payload(res.payload.create);
         } else {

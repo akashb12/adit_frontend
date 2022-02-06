@@ -7,6 +7,7 @@ import {
   getCompanySlice,
 } from "../../features/companySlice/companySlice";
 import AddCompany from "../AddCompany/AddCompany";
+import EmptyDiv from "../EmptyDiv/EmptyDiv";
 import UpdateCompany from "../UpdateCompany/UpdateCompany";
 import "./Company.css";
 interface ICompany {
@@ -128,6 +129,7 @@ function Company() {
               })}
           </tbody>
         </Table>
+        {Companies.length == 0 && <EmptyDiv />}
       </div>
     </div>
   );
